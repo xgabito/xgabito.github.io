@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizpireta</title>
+</head>
+<body onload="PlayAudio()">
+    <div class="heart"></div>
+    <div class="content">
+        <h1>Te amo Nati</h1>
+        <h2>Quiero ser sincero contigo Nati, y es que la verdad contigo soy feliz, <br>
+            puedo ser infantil, literal contigo siento que puedo hacer cualquier cosa<br>
+            de la cual antes sentía vergüenza y no es que yo sea así con muchas personas<br>
+            pero esa parte que trato de resguardar en lo más profundo te la ganaste.<br><br>
+            Y quiero que sepas que conmigo, puedes ser empalagosa. Enviarme <br>
+            Mensajes, selfis y fotos de lo que estás haciendo. Cuéntame como fue tu día, <br>
+            desahógate conmigo. <br><br>
+            Te quiero mucho <br>
+            Quiero verte sonreir todo el tiempo ♥
+            </h2>
+    </div>
+    <audio id="music" autoplay="autoplay" loop="loop">
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        function PlayAudio() {
+            document.getElementById('music').play();
+        }
+    </script>
+</body>
+</html>
